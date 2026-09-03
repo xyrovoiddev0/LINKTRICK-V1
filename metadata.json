@@ -1,0 +1,6 @@
+{
+  "name": "Linktrick",
+  "description": "Linktrick oficial da MYKA Inteligência Artificial (myka.com.br) - Links oficiais para Plataforma, Instagram, TikTok e Telegram.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

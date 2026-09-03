@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* Custom high-performance minimalist scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #040406;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #202028;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3A3A48;
+}
+
+html {
+  scroll-behavior: auto !important;
+}
