@@ -1,8 +1,3 @@
-/**
- * @license
- * SPDX-License-Identifier: Apache-2.0
- */
-
 import React, { useState, useEffect } from 'react';
 import { BootProgressBar } from './components/BootProgressBar';
 import { MykaTechnicalBackground } from './components/MykaTechnicalBackground';
