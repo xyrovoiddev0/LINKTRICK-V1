@@ -7,10 +7,6 @@ interface SmoothScrollOptions {
   isLocked?: boolean;
 }
 
-/**
- * Custom smooth inertia scrolling hook powered by Lenis.
- * Simulates the physical momentum and fluid damping of a high-performance graphics engine.
- */
 export function useSmoothScroll({ enabled = true, isLocked = false }: SmoothScrollOptions = {}) {
   const lenisRef = useRef<Lenis | null>(null);
 
